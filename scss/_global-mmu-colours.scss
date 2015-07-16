@@ -1,0 +1,35 @@
+// standard colours
+
+$black:#222222;
+$white:#ffffff;
+$mmu-blue:#004A97;
+
+// primary colours
+
+$dark-yellow:#FFC627;
+$orange:#FF6B00;
+$red:#EB0029;
+$dark-pink:#E70095;
+$violet:#8D70B0;
+$pale-blue:#8AC2EB;
+$aqua:#00ACAF;
+$lime:#CDC400;
+$green:#95C11F;
+$grey:#AFBBC3;
+
+// subsidiary colours
+
+$dark-aqua:#007078;
+$maroon:#B01657;
+$blue-grey:#5C6670;
+$burnt-orange:#D35E13;
+$olive:#837A02;
+
+// global colours
+ 
+$ui-colour: $grey;
+$global-hyperlink-colour: $mmu-blue;
+$text-colour: #555;
+$rule-colour: lighten($ui-colour, 20%);
+$default-button-colour: $dark-yellow;
+$testing: $orange;

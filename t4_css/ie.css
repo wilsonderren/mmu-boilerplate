@@ -1,0 +1,259 @@
+/* * {zoom:1;} */
+
+#hpnav li { display:inline;}
+
+#breadcrumbs { zoom:1; }
+#breadcrumbs ul li { display:inline;}
+
+/* #nav ul li {display: inline;} */
+#nav ul li a {zoom:1; display:block;}
+
+.tabs ul>li {display:inline;}
+
+ul.rules li {display:block;}
+
+#sitemap {height: 8em;}
+
+#hpflash #searchandprofessionals {display: inline; }
+
+#sitemap ul li.current a{ color:#000; font-weight:bold; background:#f7f4f2;}
+#sitemap ul li.current a li {background:#f7f4f2;}
+
+#searchandnav {float:left; width: 745px; overflow:visible; padding: 0.5em 1px 0 15px;}
+
+#pagecontent h1 {line-height: 1.1em;}
+/* all of the below is to stop the guillotine on the page content, particularly /study homepage - one pixel border seems to be the best bet */
+
+#pagecontent {zoom:1; display:inline; min-height: 1%; position:relative; border-bottom:1px solid #fff;}
+
+
+.launch { position:absolute;  display:inline;}
+
+.panel {zoom:1;}
+
+form {margin:0;}
+
+/* templates */
+
+.pdfgdownload {zoom:1;}
+
+/* study */
+
+.searchbox {zoom:1;}
+.textpanel {zoom:1;}
+.speaknav {zoom:1;}
+.col {zoom:1;}
+.opendays {padding-bottom:0.6em;}
+.panel {zoom:1;}
+.listtwo {zoom:1; }
+#study #courselisting {position:relative; border-bottom:1px solid #fff;}
+
+#about #areas {zoom:1; border-bottom:1px solid #fff;}
+
+/* current students */
+
+.eservices {zoom:1;}
+.learning {zoom:1;}
+
+/* atoz */
+
+.links li {display:inline; position:relative;}
+
+/* contact us */
+#mmucontact {zoom:1;}
+
+/* about - honorary graduates */
+.honorand {zoom:1; margin: 1em 0;}
+
+/* staff events */
+
+.events li { min-height:1%;}
+
+/* current students big links  - doesn't roll over, sigh... */
+
+#student #pagecontent .studentemail a:hover span {color:#eee; cursor:pointer;}
+#student #pagecontent .webct a:hover span {color:#eee; cursor:pointer;}
+
+#student .eservices li {float:left; width: 18em;}
+#student .eservices li a {display:block; padding: 0 0 0 2em; width: 18em; height: 1%; }
+
+#student .eservices li.hdrive a { background:url(../../images/students/hdrive.png) top left no-repeat; height: 4.8em;}
+#student .eservices li.gpas a { background:url(../../images/students/gpas.png) top left no-repeat; height: 4.8em; }
+#student .eservices li.fees a { background:url(../../images/students/fees.png) top left no-repeat;  width: 17em; height: 4.8em;}
+
+
+
+/* about - history */
+.histimg {zoom:1;}
+.histimg .captions {zoom:1; display:block; clear:both; }
+
+/* web ol */
+
+#web ol {padding: 0 0 0 3em;}
+
+/* how do i? */
+
+.orderpanel {zoom:1;}
+
+#careers #events ul {zoom:1; }
+#careers .contactlocation {zoom:1;}
+
+/* alumni */
+
+#alumni #pagecontent fieldset.checkboxlabels p {clear:both; margin: 0 0 0.5em 0;}
+
+#alumni #pagecontent .succcopy {zoom:1;}
+
+/* hul-me */
+
+
+#hulme ul.dates {}
+#hulme .whatplans {zoom:1;}
+#hulme .makecount {zoom:1;}
+#hulme img.hm {border:0;}
+#hulme ul.faq li {display:inline;}
+#hulme ul.dates li {zoom:1;}
+
+/* careers */
+
+#careers #ads {zoom:1;}
+
+
+/* study */
+#odi {zoom:1;}
+.explain {zoom:1; }
+a.booklink {zoom:1;}
+
+
+.explain h3 {clear:both; zoom:1;}
+#study #pagecontent .explain ul li { width: 185px; padding: 0 0 0.5em 1em;  position:relative; }
+#study #pagecontent .explain ul {margin:0;  padding:0; position:relative; margin:0 14px 0 0;}
+
+#slideshow.js a#clickon {background:url(/images/study/arrow_big_ie.gif) -2px top no-repeat; } /* ie 7 */
+* html .js #mm { background:url(/images/study/makemost_ie.gif) -1px top no-repeat;} /* ie 6 override */
+#slideshow.js { padding-top:10px; height: 300px;} /* ie 7 */
+* html #slideshow.js {padding-top:0;} /* ie 6 override */
+
+#careers input.MenuBtn {overflow: visible; padding-left: 1em; padding-right:1em; margin: 0.3em 0; }
+
+#jobs #support { background: #e8e6cc url(/images/jobs/support_slice.jpg) top right no-repeat; }
+
+#jobs #teachinglp { background: #e8e6cc url(/images/jobs/academic_slice.jpg) top right no-repeat; }
+
+ul.projectstabs { zoom:1;}
+
+
+
+/* MMU Originals for IE6 */
+
+.anartist {zoom:1;}
+.workandbio {zoom:1;}
+#wrapper {zoom:1;}
+.signup,.areyou {display:inline;}
+.achieved { display:inline;}
+#originals #nav h2 {line-height: 31px; }
+
+.makerblock a:hover span.forsale {text-decoration:underline; }
+
+/* travel */
+
+.frontlist li {zoom:1;}
+.whyisit {zoom:1;}
+
+html {
+  filter: expression(document.execCommand("BackgroundImageCache", false, true));
+}
+#options.fixed {position:relative; top:0; left:0; margin-left:0;}
+
+html > body #options.fixed { border:0; position: fixed; top: 3px; left: 50%; margin-left: 213px; }
+
+
+
+/* jobs4students */
+
+#jobsfor #pagecontent .controlpanel ul.menu li a {padding-bottom: 49px;}
+
+/* international */
+
+#hangon img {height: 147px;}
+
+/* external links */
+
+#nav li+li.external {zoom:1;}
+#nav li.external+li.external {zoom:0;}
+
+/* environment */
+
+#sustainability.explaindoingarea .pagecopy a#openstudents {display:block; }
+#sustainability.explaindoingarea .pagecopy a#listcourses {display:block; }
+
+/* fix icons on pdf and word docs */
+
+/*a.pdf {display:inline; padding-left:0;}
+a.doc {display:inline; padding-left:0;}
+
+a.xls {display:inline; padding-left:0;}*/
+
+
+#careers #pagecontent .dlresources span { position:absolute; top:-9999px;}
+
+/* clearing */
+
+#clearing #homepagewrapper {zoom:1; }
+#clearing #homepagewrapper .courselist { display:inline;}
+/* display:inline; position:relative; height: 1%; float:left; width: 100%;}
+#clearing .clearinghours p span.time { position:relative; height: 1%; display:inline;}*/
+#clearing .clearinghours p {zoom:1; }
+#clearing #pagecontent .clearinghours p b {float:left; }
+
+/* welcome */
+
+/* usual overflow:hidden fixes and double margin bugs */
+
+#welcomeinner, #welcomehp,#intro.pagecontent {zoom:1; }
+ul.checkboxed li { zoom:1; position:relative;}
+.hellocampus {position:relative; zoom:1; display:inline;}
+.all {position:relative; zoom:1;  }
+.all .campus h3 a {zoom:1; position:relative; }
+.all .support h3 a {zoom:1; position:relative; }
+
+.info {zoom:1; position:relative; display:inline; }
+
+.scrollable {zoom:1;  display:inline;}
+.scrollable .items {zoom:1;  display:inline;}
+.someimages {zoom:1;}
+.someimages a.browse {zoom:1;  display:inline;}
+a.whereisthis {zoom:1; display:inline;}
+
+/* refused to clear the float on .campusesnav */
+
+.campusesnav { float:none; border:1px solid #eef4f5; /* ie 7 */}
+#intro.pagecontent {text-align:right;}
+#intro.pagecontent * {text-align:left;}
+
+/* googlemap */
+
+#cover { }
+a#remove {zoom:1; display:inline;}
+#cover #googlemap { display:inline;}
+
+/* accommodation fieldsets */
+
+#acc #form1 fieldset legend { margin-top: -2.5em; margin-left: -0.5em;}
+
+#study #middle {zoom:1;}
+#study #middle * {zoom:1;}
+ul.courselist * {zoom:1;}
+ul.coursetabs * {background-image:none !important;}
+ul.coursetabs {background-image:none !important;}
+
+.logo {zoom:1;}
+.logo a img {border:0;}
+
+/* sport for IE6 */
+
+#sport * {zoom:1;}
+#sport ul.tabs li {float:left;}
+
+/* study UG open day */
+#pagecontent.odt * {zoom:1; }
