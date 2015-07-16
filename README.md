@@ -6,5 +6,4 @@ This is the code you will need to generate a c2008 page template for the MMU web
 * webserver
 * ghostlab or other SCSS processor
 * a text editor
-* 
 
