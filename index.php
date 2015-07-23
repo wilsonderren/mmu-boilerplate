@@ -3,10 +3,15 @@
 <!-- override the css in new.css -->
 <!-- this is the main page content -->
 
-<h1>Heading</h1>
-<div class="pagecontent">
-<p>This is the content</p>
-</div>
+<?php include('_includes/Parsedown.php'); 
+
+$Parsedown = new Parsedown();
+$use = file_get_contents('_content/page.md'); 
+echo $Parsedown->text($use);
+
+?>
+
+
 
 
 
